@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Merco-Benz Car Configurator</string>
+    <string name="menu_settings">Parametre</string>
+    <string name="button">Telecharger Image</string>
+</resources>

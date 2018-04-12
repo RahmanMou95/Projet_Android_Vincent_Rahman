@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.vince.merco_benzcarconfigurator.MainActivity"
+    android:orientation="vertical"
+    android:animateLayoutChanges="true"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/text_view1"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="13dp"
+                android:background="@android:color/transparent"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <ImageButton
+                android:src="@drawable/mercedes_benz_logo_transparent_png"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/text_view1"
+                android:layout_marginTop="30dp"
+                android:id="@+id/Image_Mercedes"
+                android:background="@android:color/transparent"
+                android:onClick="Merco_Image"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_complementaire"
+                android:layout_below="@id/Image_Mercedes"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/transparent"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:text="Cette image est un bouton"
+                android:layout_centerHorizontal="true"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_complementaire"
+                android:id="@+id/btn_notifi"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:text="Notification"
+                android:onClick="sendNotification"
+                />
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

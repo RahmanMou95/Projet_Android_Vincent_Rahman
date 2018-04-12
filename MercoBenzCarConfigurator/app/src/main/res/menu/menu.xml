@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="Options"
+        android:icon="@android:drawable/ic_menu_manage"
+        app:showAsAction="ifRoom"
+        >
+
+        <menu>
+
+            <item
+                android:id="@+id/toast"
+                android:enabled="true"
+                android:icon="@android:drawable/toast_frame"
+                android:title="Toast"
+                app:showAsAction="ifRoom" />
+            <item
+                android:id="@+id/notification_item"
+                android:icon="@android:drawable/ic_notification_overlay"
+                android:title="Notification"
+                app:showAsAction="ifRoom" />
+            <item
+                android:id="@+id/Pop_up_item"
+                android:icon="@android:drawable/ic_popup_reminder"
+                android:title="Pop up" />
+            <item
+                android:id="@+id/quitter"
+                android:icon="@android:drawable/ic_delete"
+                android:title="Quitter" />
+
+        </menu>
+    </item>
+</menu>

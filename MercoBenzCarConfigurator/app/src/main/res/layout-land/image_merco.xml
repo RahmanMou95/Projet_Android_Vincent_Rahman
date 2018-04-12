@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="14dp"
+                android:text="button" />
+
+            <Button
+                android:id="@+id/btn_smart_ext"
+                android:layout_width="189dp"
+                android:layout_height="79dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="74dp"
+                android:text="SmartForTwo Exterieur" />
+
+            <Button
+                android:id="@+id/btn_smart_int"
+                android:layout_width="189dp"
+                android:layout_height="79dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@+id/btn_smart_ext"
+                android:text="SmartForTwo interieur" />
+
+            <Button
+                android:id="@+id/btn_classeE_int"
+                android:layout_width="189dp"
+                android:layout_height="79dp"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@+id/btn_smart_ext"
+                android:text="Mercedes-Benz Classe E Interieur" />
+
+            <Button
+                android:id="@+id/btn_ClasseE_ext"
+                android:layout_width="189dp"
+                android:layout_height="79dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/btn_smart_ext"
+                android:text="Mercedes-Benz Classe E Exterieur" />
+
+            <Button
+                android:id="@+id/btn_ClasseGLA_int"
+                android:layout_width="189dp"
+                android:layout_height="79dp"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@+id/btn_classeE_int"
+                android:text="Mercedes-Benz Classe GLA Interieur" />
+
+            <Button
+                android:id="@+id/btn_ClasseGLA_ext"
+                android:layout_width="189dp"
+                android:layout_height="79dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/btn_classeE_int"
+                android:text="Mercedes-Benz Classe GLA Exterieur" />
+
+            <Button
+                android:id="@+id/btn_ClasseS_ext"
+                android:layout_width="189dp"
+                android:layout_height="79dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/btn_ClasseGLA_int"
+                android:text="Mercedes-Benz Classe S Cabrio Exterieur" />
+
+            <Button
+                android:id="@+id/btn_ClasseS_int"
+                android:layout_width="189dp"
+                android:layout_height="79dp"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@+id/btn_ClasseGLA_int"
+                android:text="Mercedes-Benz Classe S cabrio Interieur" />
+
+            <Button
+                android:id="@+id/button_download_ext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="33dp"
+                android:onClick="Img_download_ext"
+                android:text="Charger Image GLA" />
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
